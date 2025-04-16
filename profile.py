@@ -4,7 +4,7 @@
 
 Your task in this experiment is to set up subnets in a few small LANs to meet given design requirements.
 
-Updated: Spring 2024
+Updated: Spring 2025 (VMs are exclusive)
 """
 
 ## now using apt-get less, plus Site/exclusive to try to use reserved hardware --mt
