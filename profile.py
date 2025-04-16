@@ -101,7 +101,7 @@ iface10 = node_ophelia.addInterface('interface-14', pg.IPv4Address('0.0.0.0','0.
 node_hamlet = request.XenVM('hamlet')
 node_hamlet.disk_image = 'urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU22-64-STD'
 node_hamlet.Site('Site 1')
-node_halmet.exclusive = True
+node_hamlet.exclusive = True
 #node_hamlet.addService(pg.Execute('/bin/sh','sudo apt-get update; sudo apt-get -y install mtr'))
 node_hamlet.addService(pg.Execute('/bin/sh','wget -O - https://git.io/vSWTX | bash'))
 iface11 = node_hamlet.addInterface('interface-12', pg.IPv4Address('0.0.0.0','0.0.0.0'))
